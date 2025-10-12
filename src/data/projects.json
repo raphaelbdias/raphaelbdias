@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "cote-gold-blast",
+    "name": "CôtéGold Blast Metrics (Hackathon, 3rd place)",
+    "stack": ["Python","OpenCV"],
+    "impact": "Near real-time blast insights for IAMGOLD.",
+    "highlight": true
+  },
+  {
+    "slug": "facility-maintenance",
+    "name": "Facility Risk & FCI App",
+    "stack": ["Analytics","App"],
+    "impact": "Weather & asset risk insights for ops planning.",
+    "highlight": true
+  }
+]

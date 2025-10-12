@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* Brand Fonts */
+@font-face {
+  font-family: "Rod";
+  src: url("/fonts/ROD.TTF") format("truetype");
+  font-display: swap;
+}
+
+/* Root colors */
+:root {
+  --color-bg: #F9FAFB;
+  --color-surface: #FFFFFF;
+  --color-text: #0F172A;
+  --color-muted: #6B7280;
+  --color-accent: #2563EB;
+  --shadow: 0 8px 24px rgba(0,0,0,0.06);
+  --radius: 12px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Questrial", sans-serif;
+  line-height: 1.6;
+}
+
+/* Logo font (Rod) */
+.logo-font {
+  font-family: "Rod", sans-serif;
+  font-weight: 600;
+}
+
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+a:hover { opacity: 0.7; }
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+/* Card */
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.7);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: var(--color-text);
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+nav a:hover { color: var(--color-accent); }
+
+footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+footer a {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+  opacity: 1;
+  color: var(--color-accent);
+}
+
+
+/* === HERO SECTION === */
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--color-text);
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, #2563eb, #38bdf8, #e0f2fe, #93c5fd);
+  background-size: 300% 300%;
+  animation: gradientFlow 12s ease infinite;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #0F172A;
+}
+
+.hero-content p {
+  color: var(--color-muted);
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-3px);
+}
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  border-left: 2px solid var(--color-accent);
+  padding-left: 2rem;
+  position: relative;
+}
+
+.milestone {
+  position: relative;
+}
+
+.milestone::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0.4rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: var(--color-accent);
+  border-radius: 50%;
+}
+
+.milestone .year {
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 0.3rem;
+}
+
+/* === Modern Accenture-style Card === */
+.modern-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  display: block;
+  height: 420px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.modern-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  transition: transform 0.6s ease, filter 0.6s ease;
+  will-change: transform;
+}
+
+.modern-card:hover .card-bg {
+  transform: scale(1.1);
+  filter: brightness(0.5);
+}
+
+.card-overlay {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.6) 100%);
+  transition: background 0.5s ease;
+}
+
+.card-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.card-subtitle {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.card-text p {
+  font-size: 1rem;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+.card-hover {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  text-align: right;
+  font-weight: 500;
+}
+
+.modern-card:hover .card-hover {
+  opacity: 1;
+  transform: translateY(0);
+}
