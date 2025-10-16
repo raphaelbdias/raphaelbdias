@@ -3,15 +3,12 @@ export default function Hero() {
     <section className="hero-section">
       <div className="hero-bg"></div>
       <div className="hero-content">
-        <h1>Building Intelligent Systems that Lead to Insight.</h1>
+        <h1>Transforming Complexity into Clarity.</h1>
         <p>
-          I transform complexity into clarity — aligning data, decisions, and business value.
+          Hands-on analytics leader and builder turning messy data systems into
+          trustworthy, decision-ready intelligence.
         </p>
-        <div>
-          <a href="/projects" className="btn-primary">
-            Explore My Work
-          </a>
-        </div>
+        <a href="#projects" className="btn-primary">Explore My Work</a>
       </div>
     </section>
   );

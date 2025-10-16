@@ -24,11 +24,7 @@ export default function Footer() {
       <div style={{ marginBottom: "1rem" }}>
         <a
           href="mailto:hello@raphaelbdias.com"
-          style={{
-            color: "var(--color-text)",
-            margin: "0 0.75rem",
-            opacity: 0.8,
-          }}
+          style={{ color: "var(--color-text)", margin: "0 0.75rem", opacity: 0.8 }}
         >
           Email
         </a>
@@ -36,11 +32,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/raphaelbdias"
           target="_blank"
           rel="noopener"
-          style={{
-            color: "var(--color-text)",
-            margin: "0 0.75rem",
-            opacity: 0.8,
-          }}
+          style={{ color: "var(--color-text)", margin: "0 0.75rem", opacity: 0.8 }}
         >
           LinkedIn
         </a>
@@ -48,11 +40,7 @@ export default function Footer() {
           href="https://github.com/raphaelbdias"
           target="_blank"
           rel="noopener"
-          style={{
-            color: "var(--color-text)",
-            margin: "0 0.75rem",
-            opacity: 0.8,
-          }}
+          style={{ color: "var(--color-text)", margin: "0 0.75rem", opacity: 0.8 }}
         >
           GitHub
         </a>
@@ -64,3 +52,4 @@ export default function Footer() {
     </footer>
   );
 }
+

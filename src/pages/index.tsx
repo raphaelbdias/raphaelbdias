@@ -18,33 +18,23 @@ export default function Home() {
         </FadeInSection>
 
         <FadeInSection delay={0.1}>
-          <section className="container">
-            <Projects limit={2} />
-          </section>
+          <Projects limit={2} />
         </FadeInSection>
 
         <FadeInSection delay={0.2}>
-          <section className="container">
-            <Thoughts limit={1} />
-          </section>
+          <Thoughts limit={1} />
         </FadeInSection>
 
         <FadeInSection delay={0.3}>
-          <section className="container">
-            <Reads limit={2} />
-          </section>
+          <Reads limit={2} />
         </FadeInSection>
 
         <FadeInSection delay={0.4}>
-          <section className="container">
-            <BeyondWork preview />
-          </section>
+          <BeyondWork preview />
         </FadeInSection>
 
         <FadeInSection delay={0.5}>
-          <section className="container">
-            <Contact />
-          </section>
+          <Contact />
         </FadeInSection>
       </main>
       <Footer />
