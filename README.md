@@ -1,61 +1,62 @@
-Raphael B. Dias — Portfolio
-Transforming complexity into clarity.
+<!-- Raphael Dias – Portfolio -->
+<div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-19-61dafb)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6)](https://www.typescriptlang.org)
-[![Static Export](https://img.shields.io/badge/Output-export-green)](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports)
+<img src="https://raw.githubusercontent.com/raphaelbdias/raphaelbdias/main/public/raphael.jpeg" width="140" height="140" style="border-radius:50%; border:6px solid #05B084; box-shadow: 0 10px 30px rgba(5,176,132,0.2);" alt="Raphael Dias" />
 
-About
-- Personal site showcasing selected projects, thoughts, and reads — plus a peek beyond work. Built with the Next.js Pages Router and exported as static files for simple, fast hosting.
-- Tagline from the hero: “Hands-on analytics leader and builder turning messy data systems into trustworthy, decision-ready intelligence.”
+# Raphael Dias
 
-Preview
-![Site cover](docs/cover.png)
-- Replace `docs/cover.png` with a real screenshot from the homepage (optional).
+**Decision Support Analyst & Data Engineer**  
+Health Sciences North • Sudbury, Ontario, Canada
 
-Features
-- Responsive navbar with mobile drawer
-- Animated hero and section fade-ins
-- Featured Projects, Thoughts, Reads, Beyond Work, Contact
-- Content sourced from simple JSON files
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-raphaelbdias-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/diasraphael)
+[![GitHub](https://img.shields.io/badge/GitHub-raphaelbdias-181717?logo=github&logoColor=white)](https://github.com/raphaelbdias)
+[![Portfolio](https://img.shields.io/badge/Portfolio-raphaelbdias.com-05B084?style=flat&logo=vercel&logoColor=white)](https://raphaelbdias.com)
+[![Email](https://img.shields.io/badge/Email-diasraphael31@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:diasraphael31@gmail.com)
 
-Tech Stack
-- Next.js 15 (Pages Router)
-- React 19 + TypeScript
-- CSS (single global stylesheet)
-- framer-motion, react-intersection-observer
+> Turning complex healthcare data into trusted, actionable intelligence — currently driving Health System Funding Reform and enterprise analytics at **Health Sciences North**.
 
-Quick Start
-1) Install dependencies: `npm install`
-2) Run locally: `npm run dev`
-3) Open: `http://localhost:3000`
+</div>
 
-Project Structure
-- Entry page: `src/pages/index.tsx`
-- Components: `src/components/*` (e.g., `Navbar.tsx`, `Hero.tsx`, `Projects.tsx`, `Thoughts.tsx`, `Reads.tsx`, `BeyondWork.tsx`, `Contact.tsx`, `Footer.tsx`)
-- Animation helper: `src/components/FadeInSection.tsx`
-- Global styles: `src/styles/global.css`
-- Content data: `src/data/*.json` (projects, reads, milestones, thoughts)
-- Next config: `next.config.ts` (static export enabled)
+## About Me
 
-Editing Content
-- Projects → `src/data/projects.json`
-- Thoughts → `src/data/thoughts.json`
-- Reads → `src/data/reads.json`
-- Milestones → `src/data/milestones.json`
-- Note: The homepage uses preview limits in `src/pages/index.tsx` (e.g., `Projects limit={2}`). Adjust to show more.
+Strategic data professional with 4+ years of end-to-end experience delivering **enterprise-grade analytics**, **automated ELT pipelines**, and **Ministry-compliant reporting** in healthcare.
 
-Build & Deploy
-- Static export is enabled via `next.config.ts` (`output: 'export'`, `trailingSlash: true`, `images.unoptimized: true`).
-- Build: `npm run build` → outputs to `out/`
-- Serve locally (static): `npx serve out`
-- Deploy `out/` to any static host (Vercel Static, Netlify, GitHub Pages, S3/CloudFront).
+Currently thriving in **Decision Support** at HSN, leading Power BI / SSRS solutions that support executive strategy, funding allocation, and clinical performance improvement.
 
-Scripts
-- `npm run dev` — start the dev server
-- `npm run build` — build and export to `out/`
-- `npm run start` — Next server mode (not needed for static `out/`)
+Open to **Decision Support Analyst II**, **Senior Data Analyst**, or **Healthcare BI** roles.
 
-License
-- No license file is included. All rights reserved unless stated otherwise.
+## Expertise
+
+- **Languages & Tools**: SQL • Python • Power BI • SSRS • DAX • Flask • Streamlit • Git
+- **Focus Areas**: Healthcare Analytics • Data Governance • Automation • Stakeholder Reporting
+
+## Current Impact at Health Sciences North
+
+- Leading enterprise analytics for **Health System Funding Reform**
+- Designing Ministry-compliant Power BI dashboards and SSRS reports used by senior leadership
+- Automating multi-system ELT workflows — reduced reporting cycles by **60%+**
+- Acting as data lead for external submissions to **Ontario Health** and **Cancer Care Ontario**
+- Championing data quality and literacy across clinical and administrative teams
+
+## Featured Projects
+
+- **[BlastCaptain](https://github.com/raphaelbdias/blastcaptain)** – Real-time mine blast analytics (3rd place hackathon)
+- **Climate Risk Facility Dashboard** – Predictive maintenance tool for City of Hamilton
+- **Social Listening NLP Pipeline** – Brand monitoring across Middle East markets (Dubai)
+
+## Live Portfolio
+
+https://raphaelbdias.com
+
+Built with Next.js 14 • Tailwind CSS • TypeScript • Vercel
+
+## Let's Connect
+
+I'm always open to discussing data strategy, healthcare analytics, or new opportunities.
+
+[![Email](https://img.shields.io/static/v1?label=&message=Say%20Hello&color=05B084&style=for-the-badge)](mailto:diasraphael31@gmail.com)
+
+---
+<div align="center">
+  <sub>Crafted with care in Sudbury, Ontario • 2025</sub>
+</div>
