@@ -1,9 +1,7 @@
 <!-- Raphael Dias – Portfolio -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/raphaelbdias/raphaelbdias/main/public/raphael.jpeg" width="140" height="140" style="border-radius:50%; border:6px solid #05B084; box-shadow: 0 10px 30px rgba(5,176,132,0.2);" alt="Raphael Dias" />
-
-# Raphael Dias
+# Raphael B. Dias
 
 **Decision Support Analyst & Data Engineer**  
 Health Sciences North • Sudbury, Ontario, Canada
