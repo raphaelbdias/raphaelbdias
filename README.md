@@ -6,11 +6,6 @@
 **Decision Support Analyst & Data Engineer**  
 Health Sciences North • Sudbury, Ontario, Canada
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-raphaelbdias-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/diasraphael)
-[![GitHub](https://img.shields.io/badge/GitHub-raphaelbdias-181717?logo=github&logoColor=white)](https://github.com/raphaelbdias)
-[![Portfolio](https://img.shields.io/badge/Portfolio-raphaelbdias.com-05B084?style=flat&logo=vercel&logoColor=white)](https://raphaelbdias.com)
-[![Email](https://img.shields.io/badge/Email-diasraphael31@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:diasraphael31@gmail.com)
-
 > Turning complex healthcare data into trusted, actionable intelligence — currently driving Health System Funding Reform and enterprise analytics at **Health Sciences North**.
 
 </div>
