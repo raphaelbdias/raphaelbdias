@@ -16,7 +16,7 @@ Strategic data professional with 4+ years of end-to-end experience delivering **
 
 Currently thriving in **Decision Support** at HSN, leading Power BI / SSRS solutions that support executive strategy, funding allocation, and clinical performance improvement.
 
-Open to **Decision Support Analyst II**, **Senior Data Analyst**, or **Healthcare BI** roles.
+Open to collaboraing on projects.
 
 ## Expertise
 
